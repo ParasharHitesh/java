@@ -15,13 +15,15 @@ public class sumArray {
 	
 	
 	}
+	System.out.println(sum);
 	return sum;
 		
 	}
 
 	public static void main(String[] args) {
-		int sum=addition(a);
-		System.out.println(sum);
+	
+		sumArray.addition(a);
+	
 		
 		
 		

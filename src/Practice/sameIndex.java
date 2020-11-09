@@ -21,27 +21,17 @@ public class sameIndex {
 				//ArrayList list=new ArrayList();
 				list.add(a[i]);
 				//System.out.println(list);
-				
-				
-				
 			} 
-			else {
-				continue;
-				
-			}
-				
-
 			
-		}
-		Object[] c= list.toArray()	;
-		for(Object k:c) {
-		System.out.println(k);}
+			}
+		
+		System.out.println(list);
 		return null;
 	}
 	
 	public static void main(String[] args) {
-		sameIndex get=new sameIndex();
-		get.commom(a, b);
+		
+		sameIndex.commom(a, b);
 
 	}
 

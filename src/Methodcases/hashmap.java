@@ -20,11 +20,13 @@ public class hashmap {
 		hm.remove(103);
 		System.out.println(hm);
 		
+		hm.put(103, "Gaazi");
+		
 		for(Map.Entry m:hm.entrySet())  
 		
 		{
 			
-			System.out.println(m.getKey()+"  "+m.getValue());
+			System.out.println(m.getKey()+"  "+m.getValue()); 
 		}
 		
 		

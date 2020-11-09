@@ -4,7 +4,7 @@ public class Prime {
 
 	public static void main(String[] args) {
 		
-		int a=9;
+		int a=13;
 		boolean x=false;
 		
 		for(int i=2;i<=a/2;i++) {
@@ -15,7 +15,7 @@ public class Prime {
 			
 			
 			}}
-			if(x)  {
+			if(x==true)  {
 			System.out.println("Not Prime");
 			
 		}

@@ -24,9 +24,9 @@ public class duplicates {
 				//System.out.print("\t");
 				System.out.println("" +k);
 				if(k==1) {
-					System.out.println("  "+a[i]+"is unique");
+					System.out.println("  "+a[i]+"is unique");}
 				}
-		}
+			
 		
 	}
 		System.out.println(al);

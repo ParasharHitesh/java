@@ -24,7 +24,7 @@ public class tableWithoutMult {
 	public static int multiply(int i, int j) {
 		
 		int sum=0;
-		for(int k=1;k<=j;k++) {
+		for(int k=0;k<=j;k++) {
 			sum=sum+i;
 			System.out.println(sum) ;
 			

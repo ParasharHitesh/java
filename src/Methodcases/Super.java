@@ -31,7 +31,7 @@ class tyre extends car {
       
       tyre()   {                                                          // constructor                                         
     	                                                                  
-    	  super();                                        // no need _ just execution will change by this 
+    	 // super();                                        // no need _ just execution will change by this 
     	  System.out.println("child constructor");
       }
 }
